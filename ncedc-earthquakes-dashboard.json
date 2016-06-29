@@ -76,63 +76,6 @@
     }
   },
   {
-    "_id": "Earthquake-Izmit",
-    "_type": "dashboard",
-    "_source": {
-      "title": "Earthquake - Izmit",
-      "hits": 0,
-      "description": "",
-      "panelsJSON": "[{\"col\":1,\"id\":\"Earthquake-Depth-Timeseries\",\"panelIndex\":2,\"row\":11,\"size_x\":12,\"size_y\":2,\"type\":\"visualization\"},{\"col\":4,\"id\":\"Earthquake-Heatmap-High-Precision\",\"panelIndex\":3,\"row\":1,\"size_x\":9,\"size_y\":6,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Earthquake-Title\",\"panelIndex\":4,\"row\":1,\"size_x\":3,\"size_y\":6,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Earthquake-Count\",\"panelIndex\":5,\"row\":7,\"size_x\":6,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Earthquake-Count-per-Magnitude-Stacked\",\"panelIndex\":6,\"row\":9,\"size_x\":12,\"size_y\":2,\"type\":\"visualization\"},{\"col\":10,\"id\":\"Earthquake-Types-and-Data-Sources\",\"panelIndex\":7,\"row\":7,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":7,\"id\":\"Earthquake-Magnitude-Histogram\",\"panelIndex\":8,\"row\":7,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"}]",
-      "optionsJSON": "{\"darkTheme\":false}",
-      "uiStateJSON": "{\"P-7\":{\"vis\":{\"legendOpen\":false}},\"P-8\":{\"vis\":{\"legendOpen\":false}},\"P-6\":{\"vis\":{\"legendOpen\":true}}}",
-      "version": 1,
-      "timeRestore": true,
-      "timeTo": "1999-12-31T15:00:00.000Z",
-      "timeFrom": "1998-12-31T15:00:00.000Z",
-      "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"filter\":[{\"query\":{\"bool\":{\"must\":{\"term\":{\"type\":{\"value\":\"earthquake\"}}},\"filter\":{\"geo_distance\":{\"distance\":\"200km\",\"location\":{\"lat\":40.745,\"lon\":29.866}}}}}}]}"
-      }
-    }
-  },
-  {
-    "_id": "Earthquake-Haiti",
-    "_type": "dashboard",
-    "_source": {
-      "title": "Earthquake - Haiti",
-      "hits": 0,
-      "description": "",
-      "panelsJSON": "[{\"col\":1,\"id\":\"Earthquake-Depth-Timeseries\",\"panelIndex\":2,\"row\":11,\"size_x\":12,\"size_y\":2,\"type\":\"visualization\"},{\"col\":4,\"id\":\"Earthquake-Heatmap-High-Precision\",\"panelIndex\":3,\"row\":1,\"size_x\":9,\"size_y\":6,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Earthquake-Title\",\"panelIndex\":4,\"row\":1,\"size_x\":3,\"size_y\":6,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Earthquake-Count\",\"panelIndex\":5,\"row\":7,\"size_x\":6,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Earthquake-Count-per-Magnitude-Stacked\",\"panelIndex\":6,\"row\":9,\"size_x\":12,\"size_y\":2,\"type\":\"visualization\"},{\"col\":10,\"id\":\"Earthquake-Types-and-Data-Sources\",\"panelIndex\":7,\"row\":7,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":7,\"id\":\"Earthquake-Magnitude-Histogram\",\"panelIndex\":8,\"row\":7,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"}]",
-      "optionsJSON": "{\"darkTheme\":false}",
-      "uiStateJSON": "{\"P-7\":{\"vis\":{\"legendOpen\":false}},\"P-8\":{\"vis\":{\"legendOpen\":false}},\"P-6\":{\"vis\":{\"legendOpen\":false}}}",
-      "version": 1,
-      "timeRestore": true,
-      "timeTo": "2010-12-31T15:00:00.000Z",
-      "timeFrom": "2009-12-31T15:00:00.000Z",
-      "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"filter\":[{\"query\":{\"bool\":{\"must\":{\"term\":{\"type\":{\"value\":\"earthquake\"}}},\"filter\":{\"geo_distance\":{\"distance\":\"400km\",\"location\":{\"lat\":18.322,\"lon\":-72.855}}}}}}]}"
-      }
-    }
-  },
-  {
-    "_id": "Earthquake-Blast-Nevada",
-    "_type": "dashboard",
-    "_source": {
-      "title": "Earthquake - Blast - Nevada",
-      "hits": 0,
-      "description": "",
-      "panelsJSON": "[{\"col\":1,\"id\":\"Earthquake-Depth-Timeseries\",\"panelIndex\":2,\"row\":11,\"size_x\":12,\"size_y\":2,\"type\":\"visualization\"},{\"col\":4,\"id\":\"Earthquake-Heatmap-High-Precision-OpenStreetMap\",\"panelIndex\":3,\"row\":1,\"size_x\":9,\"size_y\":6,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Earthquake-Title\",\"panelIndex\":4,\"row\":1,\"size_x\":3,\"size_y\":6,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Earthquake-Count\",\"panelIndex\":5,\"row\":7,\"size_x\":6,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Earthquake-Count-per-Magnitude-Stacked\",\"panelIndex\":6,\"row\":9,\"size_x\":12,\"size_y\":2,\"type\":\"visualization\"},{\"col\":10,\"id\":\"Earthquake-Types-and-Data-Sources\",\"panelIndex\":7,\"row\":7,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":7,\"id\":\"Earthquake-Magnitude-Histogram\",\"panelIndex\":8,\"row\":7,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"}]",
-      "optionsJSON": "{\"darkTheme\":false}",
-      "uiStateJSON": "{\"P-7\":{\"vis\":{\"legendOpen\":false}},\"P-8\":{\"vis\":{\"legendOpen\":false}},\"P-6\":{\"vis\":{\"legendOpen\":false}}}",
-      "version": 1,
-      "timeRestore": true,
-      "timeTo": "1992-12-31T15:00:00.000Z",
-      "timeFrom": "1965-12-31T15:00:00.000Z",
-      "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"filter\":[{\"query\":{\"bool\":{\"must\":{\"term\":{\"type\":{\"value\":\"blast\"}}},\"filter\":{\"geo_polygon\":{\"location\":{\"points\":[[-120,42],[-120,39],[-114.6,35],[-114,36.19],[-114,42]]}}}}}}]}"
-      }
-    }
-  },
-  {
     "_id": "Earthquake-Loma-Prieta",
     "_type": "dashboard",
     "_source": {
@@ -147,26 +90,83 @@
       "timeTo": "1989-12-31T15:00:00.000Z",
       "timeFrom": "1988-12-31T15:00:00.000Z",
       "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"filter\":[{\"query\":{\"bool\":{\"must\":{\"term\":{\"type\":{\"value\":\"earthquake\"}}},\"filter\":{\"geo_distance\":{\"distance\":\"100km\",\"location\":{\"lat\":37.04,\"lon\":-121.88}}}}}}]}"
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"bool\":{\"must\":{\"term\":{\"type\":{\"value\":\"earthquake\"}}},\"filter\":{\"geo_distance\":{\"distance\":\"100km\",\"location\":{\"lat\":37.04,\"lon\":-121.88}}}}},\"$state\":{\"store\":\"appState\"},\"meta\":{\"key\":\"query\",\"value\":\"{\\\"bool\\\":{\\\"must\\\":{\\\"term\\\":{\\\"type\\\":{\\\"value\\\":\\\"earthquake\\\"}}},\\\"filter\\\":{\\\"geo_distance\\\":{\\\"distance\\\":\\\"100km\\\",\\\"location\\\":{\\\"lat\\\":37.04,\\\"lon\\\":-121.88}}}}}\",\"disabled\":false,\"negate\":false,\"alias\":\"100 km from Loma Pierta\"}},{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}}}]}"
       }
     }
   },
   {
-    "_id": "Earthquake-Japan",
+    "_id": "Earthquake-Blast-Nevada",
     "_type": "dashboard",
     "_source": {
-      "title": "Earthquake - Japan",
+      "title": "Earthquake - Blast - Nevada",
       "hits": 0,
       "description": "",
-      "panelsJSON": "[{\"col\":1,\"id\":\"Earthquake-Depth-Timeseries\",\"panelIndex\":2,\"row\":11,\"size_x\":12,\"size_y\":2,\"type\":\"visualization\"},{\"col\":4,\"id\":\"Earthquake-Heatmap-High-Precision\",\"panelIndex\":3,\"row\":1,\"size_x\":9,\"size_y\":6,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Earthquake-Title\",\"panelIndex\":4,\"row\":1,\"size_x\":3,\"size_y\":6,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Earthquake-Count\",\"panelIndex\":5,\"row\":7,\"size_x\":6,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Earthquake-Count-per-Magnitude-Stacked\",\"panelIndex\":6,\"row\":9,\"size_x\":12,\"size_y\":2,\"type\":\"visualization\"},{\"col\":10,\"id\":\"Earthquake-Types-and-Data-Sources\",\"panelIndex\":7,\"row\":7,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":7,\"id\":\"Earthquake-Magnitude-Histogram\",\"panelIndex\":8,\"row\":7,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"WBI-JPN-GDP-Timeseries\",\"panelIndex\":9,\"row\":13,\"size_x\":4,\"size_y\":2,\"type\":\"visualization\"},{\"col\":5,\"id\":\"WBI-JPN-Foreign-Investment\",\"panelIndex\":10,\"row\":13,\"size_x\":4,\"size_y\":2,\"type\":\"visualization\"},{\"id\":\"WBI-JPN-Exchange-Rate\",\"type\":\"visualization\",\"panelIndex\":11,\"size_x\":4,\"size_y\":2,\"col\":9,\"row\":13}]",
+      "panelsJSON": "[{\"col\":1,\"id\":\"Earthquake-Depth-Timeseries\",\"panelIndex\":2,\"row\":11,\"size_x\":12,\"size_y\":2,\"type\":\"visualization\"},{\"col\":4,\"id\":\"Earthquake-Heatmap-High-Precision-OpenStreetMap\",\"panelIndex\":3,\"row\":1,\"size_x\":9,\"size_y\":6,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Earthquake-Title\",\"panelIndex\":4,\"row\":1,\"size_x\":3,\"size_y\":6,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Earthquake-Count\",\"panelIndex\":5,\"row\":7,\"size_x\":6,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Earthquake-Count-per-Magnitude-Stacked\",\"panelIndex\":6,\"row\":9,\"size_x\":12,\"size_y\":2,\"type\":\"visualization\"},{\"col\":10,\"id\":\"Earthquake-Types-and-Data-Sources\",\"panelIndex\":7,\"row\":7,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":7,\"id\":\"Earthquake-Magnitude-Histogram\",\"panelIndex\":8,\"row\":7,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"}]",
       "optionsJSON": "{\"darkTheme\":false}",
       "uiStateJSON": "{\"P-6\":{\"vis\":{\"legendOpen\":false}},\"P-7\":{\"vis\":{\"legendOpen\":false}},\"P-8\":{\"vis\":{\"legendOpen\":false}}}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "1992-12-31T15:00:00.000Z",
+      "timeFrom": "1965-12-31T15:00:00.000Z",
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":\"Nevada\",\"disabled\":false,\"key\":\"query\",\"negate\":false,\"value\":\"{\\\"bool\\\":{\\\"filter\\\":{\\\"geo_polygon\\\":{\\\"location\\\":{\\\"points\\\":[[-120,42],[-120,39],[-114.6,35],[-114,36.19],[-114,42]]}}},\\\"must\\\":{\\\"term\\\":{\\\"type\\\":{\\\"value\\\":\\\"blast\\\"}}}}}\"},\"query\":{\"bool\":{\"filter\":{\"geo_polygon\":{\"location\":{\"points\":[[-120,42],[-120,39],[-114.6,35],[-114,36.19],[-114,42]]}}},\"must\":{\"term\":{\"type\":{\"value\":\"blast\"}}}}}},{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "Earthquake-Izmit",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Earthquake - Izmit",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"Earthquake-Depth-Timeseries\",\"panelIndex\":2,\"row\":11,\"size_x\":12,\"size_y\":2,\"type\":\"visualization\"},{\"col\":4,\"id\":\"Earthquake-Heatmap-High-Precision\",\"panelIndex\":3,\"row\":1,\"size_x\":9,\"size_y\":6,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Earthquake-Title\",\"panelIndex\":4,\"row\":1,\"size_x\":3,\"size_y\":6,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Earthquake-Count\",\"panelIndex\":5,\"row\":7,\"size_x\":6,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Earthquake-Count-per-Magnitude-Stacked\",\"panelIndex\":6,\"row\":9,\"size_x\":12,\"size_y\":2,\"type\":\"visualization\"},{\"col\":10,\"id\":\"Earthquake-Types-and-Data-Sources\",\"panelIndex\":7,\"row\":7,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":7,\"id\":\"Earthquake-Magnitude-Histogram\",\"panelIndex\":8,\"row\":7,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{\"P-7\":{\"vis\":{\"legendOpen\":false}},\"P-8\":{\"vis\":{\"legendOpen\":false}},\"P-6\":{\"vis\":{\"legendOpen\":true}}}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "1999-12-31T15:00:00.000Z",
+      "timeFrom": "1998-12-31T15:00:00.000Z",
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"bool\":{\"must\":{\"term\":{\"type\":{\"value\":\"earthquake\"}}},\"filter\":{\"geo_distance\":{\"distance\":\"200km\",\"location\":{\"lat\":40.745,\"lon\":29.866}}}}},\"$state\":{\"store\":\"appState\"},\"meta\":{\"key\":\"query\",\"value\":\"{\\\"bool\\\":{\\\"must\\\":{\\\"term\\\":{\\\"type\\\":{\\\"value\\\":\\\"earthquake\\\"}}},\\\"filter\\\":{\\\"geo_distance\\\":{\\\"distance\\\":\\\"200km\\\",\\\"location\\\":{\\\"lat\\\":40.745,\\\"lon\\\":29.866}}}}}\",\"disabled\":false,\"negate\":false,\"alias\":\"100km from Izmit\"}},{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "Earthquake-West-Coast",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Earthquake - West Coast",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"Earthquake-Depth-Timeseries\",\"panelIndex\":2,\"row\":11,\"size_x\":12,\"size_y\":2,\"type\":\"visualization\"},{\"col\":4,\"id\":\"Earthquake-Heatmap-High-Precision\",\"panelIndex\":3,\"row\":1,\"size_x\":9,\"size_y\":6,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Earthquake-Title\",\"panelIndex\":4,\"row\":1,\"size_x\":3,\"size_y\":6,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Earthquake-Count\",\"panelIndex\":5,\"row\":7,\"size_x\":6,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Earthquake-Count-per-Magnitude-Stacked\",\"panelIndex\":6,\"row\":9,\"size_x\":12,\"size_y\":2,\"type\":\"visualization\"},{\"col\":10,\"id\":\"Earthquake-Types-and-Data-Sources\",\"panelIndex\":7,\"row\":7,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":7,\"id\":\"Earthquake-Magnitude-Histogram\",\"panelIndex\":8,\"row\":7,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{\"P-7\":{\"vis\":{\"legendOpen\":false}},\"P-8\":{\"vis\":{\"legendOpen\":false}},\"P-6\":{\"vis\":{\"legendOpen\":false}}}",
       "version": 1,
       "timeRestore": true,
       "timeTo": "now",
       "timeFrom": "now-10y/y",
       "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"filter\":[{\"query\":{\"bool\":{\"must\":{\"term\":{\"type\":{\"value\":\"earthquake\"}}},\"filter\":{\"geo_polygon\":{\"location\":{\"points\":[[139.6,45.8],[125.7,32.4],[122.5,22.8],[152.8,22.8],[152.8,46.8]]}}}}},\"$state\":{\"store\":\"appState\"},\"meta\":{\"key\":\"query\",\"value\":\"{\\\"bool\\\":{\\\"must\\\":{\\\"term\\\":{\\\"type\\\":{\\\"value\\\":\\\"earthquake\\\"}}},\\\"filter\\\":{\\\"geo_polygon\\\":{\\\"location\\\":{\\\"points\\\":[[139.6,45.8],[125.7,32.4],[122.5,22.8],[152.8,22.8],[152.8,46.8]]}}}}}\",\"disabled\":false,\"negate\":false,\"alias\":null}},{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}}}]}"
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"bool\":{\"must\":[{\"term\":{\"type\":{\"value\":\"earthquake\"}}}],\"filter\":{\"geo_bounding_box\":{\"location\":{\"top_left\":{\"lat\":50.736455137010665,\"lon\":-129.22119140625},\"bottom_right\":{\"lat\":27.68352808378776,\"lon\":-105.05126953124999}}}}}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "Earthquake-Himalayas",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Earthquake - Himalayas",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"Earthquake-Depth-Timeseries\",\"panelIndex\":2,\"row\":11,\"size_x\":12,\"size_y\":2,\"type\":\"visualization\"},{\"col\":4,\"id\":\"Earthquake-Heatmap-High-Precision\",\"panelIndex\":3,\"row\":1,\"size_x\":9,\"size_y\":6,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Earthquake-Title\",\"panelIndex\":4,\"row\":1,\"size_x\":3,\"size_y\":6,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Earthquake-Count\",\"panelIndex\":5,\"row\":7,\"size_x\":6,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Earthquake-Count-per-Magnitude-Stacked\",\"panelIndex\":6,\"row\":9,\"size_x\":12,\"size_y\":2,\"type\":\"visualization\"},{\"col\":10,\"id\":\"Earthquake-Types-and-Data-Sources\",\"panelIndex\":7,\"row\":7,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":7,\"id\":\"Earthquake-Magnitude-Histogram\",\"panelIndex\":8,\"row\":7,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{\"P-7\":{\"vis\":{\"legendOpen\":false}},\"P-8\":{\"vis\":{\"legendOpen\":false}},\"P-6\":{\"vis\":{\"legendOpen\":false}}}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "now",
+      "timeFrom": "now-10y/y",
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"bool\":{\"must\":[{\"term\":{\"type\":{\"value\":\"earthquake\"}}}],\"filter\":{\"geo_bounding_box\":{\"location\":{\"top_left\":{\"lat\":40.97989806962013,\"lon\":42.84667968749999},\"bottom_right\":{\"lat\":4.740675384778373,\"lon\":107.5341796875}}}}}}}]}"
       }
     }
   },
@@ -209,6 +209,25 @@
     }
   },
   {
+    "_id": "Earthquake-Haiti",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Earthquake - Haiti",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"Earthquake-Depth-Timeseries\",\"panelIndex\":2,\"row\":11,\"size_x\":12,\"size_y\":2,\"type\":\"visualization\"},{\"col\":4,\"id\":\"Earthquake-Heatmap-High-Precision\",\"panelIndex\":3,\"row\":1,\"size_x\":9,\"size_y\":6,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Earthquake-Title\",\"panelIndex\":4,\"row\":1,\"size_x\":3,\"size_y\":6,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Earthquake-Count\",\"panelIndex\":5,\"row\":7,\"size_x\":6,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Earthquake-Count-per-Magnitude-Stacked\",\"panelIndex\":6,\"row\":9,\"size_x\":12,\"size_y\":2,\"type\":\"visualization\"},{\"col\":10,\"id\":\"Earthquake-Types-and-Data-Sources\",\"panelIndex\":7,\"row\":7,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":7,\"id\":\"Earthquake-Magnitude-Histogram\",\"panelIndex\":8,\"row\":7,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{\"P-7\":{\"vis\":{\"legendOpen\":false}},\"P-8\":{\"vis\":{\"legendOpen\":false}},\"P-6\":{\"vis\":{\"legendOpen\":false}}}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "2010-12-31T15:00:00.000Z",
+      "timeFrom": "2009-12-31T15:00:00.000Z",
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"bool\":{\"must\":{\"term\":{\"type\":{\"value\":\"earthquake\"}}},\"filter\":{\"geo_distance\":{\"distance\":\"400km\",\"location\":{\"lat\":18.322,\"lon\":-72.855}}}}},\"$state\":{\"store\":\"appState\"},\"meta\":{\"key\":\"query\",\"value\":\"{\\\"bool\\\":{\\\"must\\\":{\\\"term\\\":{\\\"type\\\":{\\\"value\\\":\\\"earthquake\\\"}}},\\\"filter\\\":{\\\"geo_distance\\\":{\\\"distance\\\":\\\"400km\\\",\\\"location\\\":{\\\"lat\\\":18.322,\\\"lon\\\":-72.855}}}}}\",\"disabled\":false,\"negate\":false,\"alias\":\"400km from Haiti\"}},{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}}}]}"
+      }
+    }
+  },
+  {
     "_id": "Earthquake-Blast-North-East",
     "_type": "dashboard",
     "_source": {
@@ -223,45 +242,45 @@
       "timeTo": "now",
       "timeFrom": "now-16y/y",
       "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"filter\":[{\"query\":{\"bool\":{\"must\":{\"term\":{\"type\":{\"value\":\"blast\"}}},\"filter\":{\"geo_distance\":{\"distance\":\"500km\",\"location\":{\"lat\":42.5,\"lon\":-73.8}}}}}}]}"
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"bool\":{\"must\":{\"term\":{\"type\":{\"value\":\"blast\"}}},\"filter\":{\"geo_distance\":{\"distance\":\"500km\",\"location\":{\"lat\":42.5,\"lon\":-73.8}}}}},\"$state\":{\"store\":\"appState\"},\"meta\":{\"key\":\"query\",\"value\":\"{\\\"bool\\\":{\\\"must\\\":{\\\"term\\\":{\\\"type\\\":{\\\"value\\\":\\\"blast\\\"}}},\\\"filter\\\":{\\\"geo_distance\\\":{\\\"distance\\\":\\\"500km\\\",\\\"location\\\":{\\\"lat\\\":42.5,\\\"lon\\\":-73.8}}}}}\",\"disabled\":false,\"negate\":false,\"alias\":\"500km from Albany, NY\"}},{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}}}]}"
       }
     }
   },
   {
-    "_id": "Earthquake-Himalayas",
+    "_id": "Earthquake-Japan",
     "_type": "dashboard",
     "_source": {
-      "title": "Earthquake - Himalayas",
+      "title": "Earthquake - Japan",
       "hits": 0,
       "description": "",
-      "panelsJSON": "[{\"col\":1,\"id\":\"Earthquake-Depth-Timeseries\",\"panelIndex\":2,\"row\":11,\"size_x\":12,\"size_y\":2,\"type\":\"visualization\"},{\"col\":4,\"id\":\"Earthquake-Heatmap-High-Precision\",\"panelIndex\":3,\"row\":1,\"size_x\":9,\"size_y\":6,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Earthquake-Title\",\"panelIndex\":4,\"row\":1,\"size_x\":3,\"size_y\":6,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Earthquake-Count\",\"panelIndex\":5,\"row\":7,\"size_x\":6,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Earthquake-Count-per-Magnitude-Stacked\",\"panelIndex\":6,\"row\":9,\"size_x\":12,\"size_y\":2,\"type\":\"visualization\"},{\"col\":10,\"id\":\"Earthquake-Types-and-Data-Sources\",\"panelIndex\":7,\"row\":7,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":7,\"id\":\"Earthquake-Magnitude-Histogram\",\"panelIndex\":8,\"row\":7,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"}]",
+      "panelsJSON": "[{\"col\":1,\"id\":\"Earthquake-Depth-Timeseries\",\"panelIndex\":2,\"row\":11,\"size_x\":12,\"size_y\":2,\"type\":\"visualization\"},{\"col\":4,\"id\":\"Earthquake-Heatmap-High-Precision\",\"panelIndex\":3,\"row\":1,\"size_x\":9,\"size_y\":6,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Earthquake-Title\",\"panelIndex\":4,\"row\":1,\"size_x\":3,\"size_y\":6,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Earthquake-Count\",\"panelIndex\":5,\"row\":7,\"size_x\":6,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Earthquake-Count-per-Magnitude-Stacked\",\"panelIndex\":6,\"row\":9,\"size_x\":12,\"size_y\":2,\"type\":\"visualization\"},{\"col\":10,\"id\":\"Earthquake-Types-and-Data-Sources\",\"panelIndex\":7,\"row\":7,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":7,\"id\":\"Earthquake-Magnitude-Histogram\",\"panelIndex\":8,\"row\":7,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"WBI-JPN-GDP-Timeseries\",\"panelIndex\":9,\"row\":13,\"size_x\":4,\"size_y\":2,\"type\":\"visualization\"},{\"col\":5,\"id\":\"WBI-JPN-Foreign-Investment\",\"panelIndex\":10,\"row\":13,\"size_x\":4,\"size_y\":2,\"type\":\"visualization\"},{\"id\":\"WBI-JPN-Exchange-Rate\",\"type\":\"visualization\",\"panelIndex\":11,\"size_x\":4,\"size_y\":2,\"col\":9,\"row\":13}]",
       "optionsJSON": "{\"darkTheme\":false}",
-      "uiStateJSON": "{\"P-7\":{\"vis\":{\"legendOpen\":false}},\"P-8\":{\"vis\":{\"legendOpen\":false}},\"P-6\":{\"vis\":{\"legendOpen\":false}}}",
+      "uiStateJSON": "{\"P-6\":{\"vis\":{\"legendOpen\":false}},\"P-7\":{\"vis\":{\"legendOpen\":false}},\"P-8\":{\"vis\":{\"legendOpen\":false}}}",
       "version": 1,
       "timeRestore": true,
       "timeTo": "now",
       "timeFrom": "now-10y/y",
       "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"filter\":[{\"query\":{\"bool\":{\"must\":[{\"term\":{\"type\":{\"value\":\"earthquake\"}}}],\"filter\":{\"geo_bounding_box\":{\"location\":{\"top_left\":{\"lat\":40.97989806962013,\"lon\":42.84667968749999},\"bottom_right\":{\"lat\":4.740675384778373,\"lon\":107.5341796875}}}}}}}]}"
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"bool\":{\"must\":[{\"term\":{\"type\":{\"value\":\"earthquake\"}}}],\"filter\":{\"geo_polygon\":{\"location\":{\"points\":[[139.6,45.8],[125.7,32.4],[122.5,22.8],[152.8,22.8],[152.8,46.8]]}}}}},\"$state\":{\"store\":\"appState\"},\"meta\":{\"key\":\"query\",\"value\":\"{\\\"bool\\\":{\\\"must\\\":[{\\\"term\\\":{\\\"type\\\":{\\\"value\\\":\\\"earthquake\\\"}}}],\\\"filter\\\":{\\\"geo_polygon\\\":{\\\"location\\\":{\\\"points\\\":[[139.6,45.8],[125.7,32.4],[122.5,22.8],[152.8,22.8],[152.8,46.8]]}}}}}\",\"disabled\":false,\"negate\":false,\"alias\":\"Japan Territorial Water\"}},{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}}}]}"
       }
     }
   },
   {
-    "_id": "Earthquake-West-Coast",
+    "_id": "Earthquake-vs-Population-slash-Nuclear-Plants",
     "_type": "dashboard",
     "_source": {
-      "title": "Earthquake - West Coast",
+      "title": "Earthquake vs Population/Nuclear Plants",
       "hits": 0,
       "description": "",
-      "panelsJSON": "[{\"col\":1,\"id\":\"Earthquake-Depth-Timeseries\",\"panelIndex\":2,\"row\":11,\"size_x\":12,\"size_y\":2,\"type\":\"visualization\"},{\"col\":4,\"id\":\"Earthquake-Heatmap-High-Precision\",\"panelIndex\":3,\"row\":1,\"size_x\":9,\"size_y\":6,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Earthquake-Title\",\"panelIndex\":4,\"row\":1,\"size_x\":3,\"size_y\":6,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Earthquake-Count\",\"panelIndex\":5,\"row\":7,\"size_x\":6,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Earthquake-Count-per-Magnitude-Stacked\",\"panelIndex\":6,\"row\":9,\"size_x\":12,\"size_y\":2,\"type\":\"visualization\"},{\"col\":10,\"id\":\"Earthquake-Types-and-Data-Sources\",\"panelIndex\":7,\"row\":7,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":7,\"id\":\"Earthquake-Magnitude-Histogram\",\"panelIndex\":8,\"row\":7,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"}]",
+      "panelsJSON": "[{\"col\":1,\"id\":\"Earthquake-Depth-Timeseries\",\"panelIndex\":2,\"row\":11,\"size_x\":12,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Earthquake-Title\",\"panelIndex\":4,\"row\":1,\"size_x\":3,\"size_y\":6,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Earthquake-Count\",\"panelIndex\":5,\"row\":7,\"size_x\":6,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Earthquake-Count-per-Magnitude-Stacked\",\"panelIndex\":6,\"row\":9,\"size_x\":12,\"size_y\":2,\"type\":\"visualization\"},{\"col\":10,\"id\":\"Earthquake-Types-and-Data-Sources\",\"panelIndex\":7,\"row\":7,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":7,\"id\":\"Earthquake-Magnitude-Histogram\",\"panelIndex\":8,\"row\":7,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"id\":\"Earthquake-Heatmap-Population-Count-and-Nuclear-Plants\",\"type\":\"visualization\",\"panelIndex\":9,\"size_x\":9,\"size_y\":6,\"col\":4,\"row\":1}]",
       "optionsJSON": "{\"darkTheme\":false}",
-      "uiStateJSON": "{\"P-7\":{\"vis\":{\"legendOpen\":false}},\"P-8\":{\"vis\":{\"legendOpen\":false}},\"P-6\":{\"vis\":{\"legendOpen\":false}}}",
+      "uiStateJSON": "{\"P-7\":{\"vis\":{\"legendOpen\":false}},\"P-8\":{\"vis\":{\"legendOpen\":false}}}",
       "version": 1,
       "timeRestore": true,
       "timeTo": "now",
       "timeFrom": "now-10y/y",
       "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"filter\":[{\"query\":{\"bool\":{\"must\":[{\"term\":{\"type\":{\"value\":\"earthquake\"}}}],\"filter\":{\"geo_bounding_box\":{\"location\":{\"top_left\":{\"lat\":50.736455137010665,\"lon\":-129.22119140625},\"bottom_right\":{\"lat\":27.68352808378776,\"lon\":-105.05126953124999}}}}}}}]}"
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
       }
     }
   },
@@ -434,20 +453,6 @@
     }
   },
   {
-    "_id": "Earthquake-Title",
-    "_type": "visualization",
-    "_source": {
-      "title": "Earthquake - Title",
-      "visState": "{\"title\":\"Earthquake - Title\",\"type\":\"markdown\",\"params\":{\"markdown\":\"# World's Earthquakes\\n\\n### Hot Areas\\n\\n- [Japan](/app/kibana#/dashboard/Earthquake-Japan)\\n- [Indonesia](/app/kibana#/dashboard/Earthquake-Indonesia)\\n- [Himalayas](/app/kibana#/dashboard/Earthquake-Himalayas)\\n- [Mediterranean Region](/app/kibana#/dashboard/Earthquake-Mediterranean-Region)\\n- [West Coast, USA](/app/kibana#/dashboard/Earthquake-West-Coast)\\n\\n### Catalogues\\n\\n- [1989 Loma Prieta](http://localhost:5601/app/kibana#/dashboard/Earthquake-Loma-Prieta) ([Wikipedia](https://en.wikipedia.org/wiki/1989_Loma_Prieta_earthquake))\\n- [1999 İzmit](/app/kibana#/dashboard/Earthquake-Izmit) ([Wikipedia](https://en.wikipedia.org/wiki/1999_İzmit_earthquake))\\n- [2004 Sumatra](/app/kibana#/dashboard/Earthquake-Sumatra) ([Wikipedia](https://en.wikipedia.org/wiki/2004_Indian_Ocean_earthquake_and_tsunami))\\n- [2010 Haiti](/app/kibana#/dashboard/Earthquake-Haiti) ([Wikipedia](https://en.wikipedia.org/wiki/2010_Haiti_earthquake))\\n- [2011 Tohoku](http://localhost:5601/app/kibana#/dashboard/Earthquake-Tohoku) ([Wikipedia](https://en.wikipedia.org/wiki/2011_Tōhoku_earthquake_and_tsunami))\\n\\n### Quarry and Nuclear Blasts\\n\\n- [North East, USA and Montreal, Canada](/app/kibana#/dashboard/Earthquake-Blast-North-East)\\n- [D.P.R. Korea](/app/kibana#/dashboard/Earthquake-Blast-DPRK)\\n- [Nevada, USA](/app/kibana#/dashboard/Earthquake-Blast-Nevada)\\n\\n# \\n\\nGo back to [the world map](/app/kibana#/dashboard/Earthquake).\\n\\n**Acknowledgements:**\\nWaveform data, metadata, or data products for this study were accessed through the Northern California Earthquake Data Center (NCEDC), doi:10.7932/NCEDC.\"},\"aggs\":[],\"listeners\":{}}",
-      "uiStateJSON": "{}",
-      "description": "",
-      "version": 1,
-      "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[]}"
-      }
-    }
-  },
-  {
     "_id": "WBI-JPN-Exchange-Rate",
     "_type": "visualization",
     "_source": {
@@ -458,6 +463,34 @@
       "version": 1,
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Earthquake-Heatmap-Population-Count-and-Nuclear-Plants",
+    "_type": "visualization",
+    "_source": {
+      "title": "Earthquake - Heatmap - Population Count and Nuclear Plants",
+      "visState": "{\n  \"title\": \"Earthquake - Heatmap Population Count and Nuclear Plants\",\n  \"type\": \"tile_map\",\n  \"params\": {\n    \"mapType\": \"Heatmap\",\n    \"isDesaturated\": true,\n    \"addTooltip\": true,\n    \"heatMaxZoom\": \"18\",\n    \"heatMinOpacity\": \"0.2\",\n    \"heatRadius\": \"8\",\n    \"heatBlur\": \"4\",\n    \"heatNormalizeData\": true,\n    \"wms\": {\n      \"enabled\": true,\n      \"url\": \"http://sedac.ciesin.columbia.edu/geoserver/wms\",\n      \"options\": {\n        \"version\": \"1.3.0\",\n        \"layers\": \"gpw-v3:gpw-v3-population-count_2000,energy:energy-pop-exposure-nuclear-plants-locations_plants,gpw-v3:gpw-v3-coastlines\",\n        \"format\": \"image/png\",\n        \"transparent\": true,\n        \"attribution\": \"Maps provided by Socioeconomic Data and Applications Center\",\n        \"styles\": \"\"\n      }\n    }\n  },\n  \"aggs\": [\n    {\n      \"id\": \"1\",\n      \"type\": \"sum\",\n      \"schema\": \"metric\",\n      \"params\": {\n        \"field\": \"mag\"\n      }\n    },\n    {\n      \"id\": \"2\",\n      \"type\": \"geohash_grid\",\n      \"schema\": \"segment\",\n      \"params\": {\n        \"field\": \"location\",\n        \"autoPrecision\": false,\n        \"mapZoom\": 2,\n        \"mapCenter\": [\n          20,0\n        ],\n        \"precision\": 4\n      }\n    }\n  ],\n  \"listeners\": {}\n}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\n  \"index\": \"ncedc-earthquake\",\n  \"query\": {\n    \"query_string\": {\n      \"query\": \"*\",\n      \"analyze_wildcard\": true\n    }\n  },\n  \"filter\": []\n}"
+      }
+    }
+  },
+  {
+    "_id": "Earthquake-Title",
+    "_type": "visualization",
+    "_source": {
+      "title": "Earthquake - Title",
+      "visState": "{\"title\":\"Earthquake - Title\",\"type\":\"markdown\",\"params\":{\"markdown\":\"# World's Earthquakes\\n\\n### Hot Areas\\n\\n- [Japan](/app/kibana#/dashboard/Earthquake-Japan)\\n- [Indonesia](/app/kibana#/dashboard/Earthquake-Indonesia)\\n- [Himalayas](/app/kibana#/dashboard/Earthquake-Himalayas)\\n- [Mediterranean Region](/app/kibana#/dashboard/Earthquake-Mediterranean-Region)\\n- [West Coast, USA](/app/kibana#/dashboard/Earthquake-West-Coast)\\n\\n### Catalogues\\n\\n- [1989 Loma Prieta](http://localhost:5601/app/kibana#/dashboard/Earthquake-Loma-Prieta) ([Wikipedia](https://en.wikipedia.org/wiki/1989_Loma_Prieta_earthquake))\\n- [1999 İzmit](/app/kibana#/dashboard/Earthquake-Izmit) ([Wikipedia](https://en.wikipedia.org/wiki/1999_İzmit_earthquake))\\n- [2004 Sumatra](/app/kibana#/dashboard/Earthquake-Sumatra) ([Wikipedia](https://en.wikipedia.org/wiki/2004_Indian_Ocean_earthquake_and_tsunami))\\n- [2010 Haiti](/app/kibana#/dashboard/Earthquake-Haiti) ([Wikipedia](https://en.wikipedia.org/wiki/2010_Haiti_earthquake))\\n- [2011 Tohoku](http://localhost:5601/app/kibana#/dashboard/Earthquake-Tohoku) ([Wikipedia](https://en.wikipedia.org/wiki/2011_Tōhoku_earthquake_and_tsunami))\\n\\n### Quarry and Nuclear Blasts\\n\\n- [North East, USA and Montreal, Canada](/app/kibana#/dashboard/Earthquake-Blast-North-East)\\n- [D.P.R. Korea](/app/kibana#/dashboard/Earthquake-Blast-DPRK)\\n- [Nevada, USA](/app/kibana#/dashboard/Earthquake-Blast-Nevada)\\n\\n# \\n\\nGo back to [the world map](/app/kibana#/dashboard/Earthquake) or [compare with world population and nuclear plant locations](/app/kibana#/dashboard/Earthquake-vs-Population-slash-Nuclear-Plants).\\n\\n**Acknowledgements:**\\nWaveform data, metadata, or data products for this study were accessed through the Northern California Earthquake Data Center (NCEDC), doi:10.7932/NCEDC.\"},\"aggs\":[],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[]}"
       }
     }
   }
