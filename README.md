@@ -31,8 +31,8 @@ The logstash configuration file requires `logstash-filter-environment` community
 Extract the dataset archive with `tar zxf ncedc-earthquakes-dataset.tar.gz` from the terminal. Run the below commands to ingest the data sets to your Elasticsearch cluster. Please note, you may need to configure `ncedc-earthquakes-logstash.conf` file in case your are not running Elasticsearch node on your local host.
 
 ```
-tail +1 earthquakes.txt| EVENT="earthquake" ../../logstash/bin/logstash -f ncedc-earthquakes-logstash.conf
-tail +1 blasts.txt| EVENT="blast" ../../logstash/bin/logstash -f ncedc-earthquakes-logstash.conf
+tail +1 earthquakes.txt| EVENT="earthquake" logstash/bin/logstash -f ncedc-earthquakes-logstash.conf
+tail +1 blasts.txt| EVENT="blast" logstash/bin/logstash -f ncedc-earthquakes-logstash.conf
 ```
 
 ### Importing Kibana Visuals and Dashboards
