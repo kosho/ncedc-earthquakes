@@ -35,6 +35,10 @@ tail +1 earthquakes.txt| EVENT="earthquake" logstash/bin/logstash -f ncedc-earth
 tail +1 blasts.txt| EVENT="blast" logstash/bin/logstash -f ncedc-earthquakes-logstash.conf
 ```
 
+### Installing Timelion Plugin
+
+The Kibana dashboard requires the `timelion` plugin. You may install the plugin by running `bin/kibana-plugin install timelion`
+
 ### Importing Kibana Visuals and Dashboards
 
 1. Open Kibana and go to Settings > Indices. Type in `ncedc-earthquakes` as the index name and create the index pattern.
