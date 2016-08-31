@@ -11,14 +11,14 @@ The earthquake datasets are gathered from the Northern California Earthquake Dat
 ### Earthquakes
 
 Filename: earthquakes.txt  
-Search parameters: `catalog=ANSS, start_time=1898/01/01,00:00:00, end_time=2016/06/07,10:57:46, minimum_magnitude=0, maximum_magnitude=10, event_type=Ei`  
-Size: 3010078 lines (230265058 bytes)
+Search parameters: `catalog=ANSS, start_time=1989/01/01,00:00:00, end_time=2016/08/31,05:02:49, minimum_magnitude=0, maximum_magnitude=10, event_type=E`  
+Size: 2394928 lines (183051645 bytes)
 
 ### Blasts (Quarry or Nuclear)
 
 Filename: blasts.txt  
-Search parameters: `catalog=ANSS, start_time=1898/01/01,00:00:00, end_time=2016/06/07,11:00:39, minimum_magnitude=0, maximum_magnitude=10, event_type=B`  
-Size:  29522 lines (2257360 bytes)
+Search parameters: `catalog=ANSS, start_time=1989/01/01,00:00:00, end_time=2016/08/31,05:03:01, minimum_magnitude=0, maximum_magnitude=10, event_type=B`  
+Size:  17637 lines (1337354 bytes)
 
 ## Setting up
 
