@@ -17,8 +17,8 @@ Size: 2394928 lines (183051645 bytes)
 ### Blasts (Quarry or Nuclear)
 
 Filename: blasts.txt  
-Search parameters: `catalog=ANSS, start_time=1989/01/01,00:00:00, end_time=2016/08/31,05:03:01, minimum_magnitude=0, maximum_magnitude=10, event_type=B`  
-Size:  17637 lines (1337354 bytes)
+Search parameters: `catalog=ANSS, start_time=1989/01/01,00:00:00, end_time=2016/09/04,07:56:16, minimum_magnitude=0, maximum_magnitude=10, event_type=B`  
+Size: 29593 lines (2263068 bytes)
 
 ## Setting up
 
