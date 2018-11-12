@@ -1,5 +1,5 @@
 {
-  "template": "ncedc-earthquakes",
+  "index_patterns": ["ncedc-earthquakes"],
     "settings": {
       "number_of_shards": 1,
       "number_of_replicas" : 0,
@@ -13,7 +13,8 @@
             "match": "*",
             "match_mapping_type": "string",
             "mapping": {
-              "type": "keyword"
+              "type": "keyword",
+              "norms": false
             }
           }
         }
@@ -22,9 +23,6 @@
           "location": {
             "type": "geo_point"
           }
-        },
-        "_all": {
-          "enabled": false
         }
       }
     }
