@@ -5,7 +5,7 @@
       "index.refresh_interval": "60s"
     },
     "mappings": {
-      "_default_": {
+      "doc": {
         "dynamic_templates": [
         {
           "strings": {
